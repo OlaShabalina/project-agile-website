@@ -1,0 +1,80 @@
+:root {
+  --bright: rgb(255, 93, 96);
+  --blue: rgb(34, 40, 64);
+  --backgroundFigure: rgb(237, 242, 246);
+  --background: rgb(255, 255, 255);
+  --highlight: rgb(207, 212, 216);
+  --darkHighlight: rgb(127, 131, 140);
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-bar {
+  background: var(--background);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  justify-content: space-between;
+  padding: 2% 5%;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.nav-links li:last-of-type {
+  color: var(--darkHighlight);
+}
+
+.nav-links li a {
+  text-decoration: none;
+}
+
+.point {
+  color: var(--highlight);
+  font-weight: 700;
+}
+
+.hidden {
+  display: none;
+}
+
+main {
+  display: flex;
+  overflow: hidden;
+}
+
+section {
+  width: 50%;
+}
+
+.background-rectangle {
+  background-color: var(--highlight);
+  border-radius: 45px;
+  position: absolute;
+  top: -10%;
+  width: 100%;
+  height: 70%;
+  z-index: -1;
+}
+
+.main-content-section {
+  padding: 8%;
+}

@@ -5,38 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Project tracking intro component</title>
-  <link rel="stylesheet" href="styles.scss">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
+  <div class="nav-bar">
     <div>
-      <img src="/images/logo.svg">
+      <img class="nav-img" src="/images/logo.svg">
     </div>
-    <div>
-      <img src="/images/icon-hamburger.svg" alt="">
-    </div>
+    <img src="/images/icon-hamburger.svg" alt="" class="hidden">
     <nav>
-      <ul>
-        <li>Product</li>
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>Login</li>
+      <ul class="nav-links">
+        <li><a>Product</a></li>
+        <li><a>Features</a></li>
+        <li><a>Pricing</a></li>
+        <li><div class="point">.</div></li>
+        <li><a>Login</a></li>
       </ul>
     </nav>
-  </header>
+  </div>
 
   <main>
-    <!-- left part of the page -->
-    <section>
-      <div></div>
-      <div>
-        <img src="/images/illustration-devices.svg" alt="">
-      </div>
-    </section>
 
-    <!-- right part of the page -->
-    <section>
-      
+    <section class="main-content-section">
       <div>
         <p><span>New</span> Monograph Dashboard </p>
         <h1>Powerful insights into your team</h1>
@@ -45,6 +35,13 @@
       <div>
         <a href="/">Schedule a demo</a>
         <a href="/">to see a live preview</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="background-rectangle"> </div>
+      <div>
+        <img src="/images/illustration-devices.svg" alt="">
       </div>
     </section>
 
