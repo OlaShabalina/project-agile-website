@@ -58,12 +58,23 @@ Users should be able to:
 
 - Combining Css classes and JS event listeners to open and close the nav menu.
 
-
 ```js
 openMenu.addEventListener("click", (e) => {
   navBar.classList.remove("hidden");
   openMenu.classList.add("hidden");
   closeMenu.classList.remove("hidden");
+})
+```
+
+- Working with Media Queries in JS to show or hide the nav bar.
+
+```js
+mobileVersion.addEventListener("change", (e) => {
+  if (mobileVersion.matches) {
+    navBar.classList.add("hidden");
+  } else {
+    navBar.classList.remove("hidden");
+  }
 })
 ```
 
