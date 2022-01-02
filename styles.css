@@ -82,7 +82,6 @@ main {
 
 section {
   width: 50%;
-  border: 2px solid green;
 }
 
 .background-rectangle {
@@ -171,7 +170,6 @@ h2 {
 }
 
 footer {
-  border: 2px solid blue;
   position: absolute;
   height: 50px;
   width: 100%;
@@ -212,6 +210,7 @@ footer {
   .background-rectangle {
     margin-left: 45%;
     height: 600px;
+    overflow-x: hidden;
   }
 
   .nav-switch {
@@ -271,7 +270,6 @@ footer {
   .main-img-container {
     margin-top: 10%;
     overflow-x: hidden;
-    border: 2px solid red;
   }
 
   .main-img {
