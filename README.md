@@ -6,9 +6,9 @@ This is a solution to the [Project tracking intro component challenge on Fronten
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshots](#screenshot)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+- [Screenshots](#screenshots)
 
 ## Overview
 
@@ -22,20 +22,6 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Create the background shape using code
 
-### Overview of the project using screenshots
-
-#### Desktop version
-
-![FrontEnd_Mentor](https://user-images.githubusercontent.com/88268603/147874776-54adcc74-196c-4d07-b218-32542326812d.JPG)
-
-#### Mobile version (nav is hidden)
-
-![mobile_version](https://user-images.githubusercontent.com/88268603/147874798-6e25442e-60a2-4352-b23e-9d4246de7eb4.JPG)
-
-#### Mobile version (nav is active)
-
-![mobile_version_open_nav](https://user-images.githubusercontent.com/88268603/147874819-bb268780-d1d1-48fd-9d53-ef3e57e4e73b.JPG)
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -45,7 +31,7 @@ Users should be able to:
 
 ### What I learned
 
-- Best practice to create nav-bar with <ul> and <li>.
+- Best practice to create nav-bar with ```<ul>``` and ```<li>```.
 
 ```html
 <nav class="nav">
@@ -80,3 +66,17 @@ openMenu.addEventListener("click", (e) => {
   closeMenu.classList.remove("hidden");
 })
 ```
+
+## Screenshots
+
+### Desktop version
+
+![FrontEnd_Mentor](https://user-images.githubusercontent.com/88268603/147874776-54adcc74-196c-4d07-b218-32542326812d.JPG)
+
+### Mobile version (nav is hidden)
+
+![mobile_version](https://user-images.githubusercontent.com/88268603/147874798-6e25442e-60a2-4352-b23e-9d4246de7eb4.JPG)
+
+### Mobile version (nav is active)
+
+![mobile_version_open_nav](https://user-images.githubusercontent.com/88268603/147874819-bb268780-d1d1-48fd-9d53-ef3e57e4e73b.JPG)
